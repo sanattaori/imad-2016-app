@@ -38,6 +38,16 @@ var htmlTemplate = `
 <head>
 	<title>Article one</title>
 	<meta name ="viewport" content ="width=device-width,initial-scale=1">
+    <script>
+    .container {
+    max-width : 900px;
+    margin: 0 auto;
+    color: grey;
+font-family: sans-serif;
+padding-left:20px ;
+padding-right:20px;
+}
+</script>
 	
 </head>
 <body>
