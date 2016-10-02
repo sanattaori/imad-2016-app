@@ -9,17 +9,17 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('artical-one', function (req, res){
+app.get('/artical-one', function (req, res){
     res.send('Artical one requested');
     
 });
 
-app.get('artical-two', function (req, res){
+app.get('/artical-two', function (req, res){
     res.send('Artical two requested');
     
 });
 
-app.get('artical-three', function (req, res){
+app.get('/artical-three', function (req, res){
     res.send('Artical three requested');
     
 });
