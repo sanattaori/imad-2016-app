@@ -13,7 +13,7 @@ app.get('artical-one', function (req, res){
     res.send('Artical one requested');
     
 });
-a
+
 app.get('artical-two', function (req, res){
     res.send('Artical two requested');
     
