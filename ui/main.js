@@ -1,4 +1,7 @@
 console.log('Loaded!');
+setTimeout(function(){
+     $('.madi').addClass('magictime puffIn');
+ }, 5000);
 
 
 
