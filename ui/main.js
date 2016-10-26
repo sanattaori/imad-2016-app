@@ -19,9 +19,4 @@ $('.madi2').hover(function () {
 });
 
 
-    $(function(){
-        $(".typed-element").typed({
-            strings: ["First sentence.", "Second sentence."],
-            typeSpeed: 0
-        });
-    });
+    
