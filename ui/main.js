@@ -15,5 +15,5 @@ button.onclick = function() {
 };
 
 $('.madi2').hover(function () {
-  $(this).addClass('magictime slideUp');
+  $(this).addClass('magictime spaceOutUp');
 });
