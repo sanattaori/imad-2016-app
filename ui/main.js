@@ -1,6 +1,6 @@
 console.log('Loaded!');
 setTimeout(function(){
-     $('.madi').addClass('magictime puffIn');
+     $('.madi2').addClass('magictime puffIn');
  }, 5000);
 
 
@@ -14,6 +14,6 @@ button.onclick = function() {
 	span.innerHTML = counter.toString();
 };
 
-$('.madi').hover(function () {
+$('.madi2').hover(function () {
   $(this).addClass('magictime puffIn');
 });
