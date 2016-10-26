@@ -14,6 +14,6 @@ button.onclick = function() {
 	span.innerHTML = counter.toString();
 };
 
-$('.madi2').hover(function () {
+$('.madi').hover(function () {
   $(this).addClass('magictime puffIn');
 });
