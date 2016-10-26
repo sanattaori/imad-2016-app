@@ -1,19 +1,9 @@
 console.log('Loaded!');
 
-//move img
-var img = document.getElementById('madi');
 
-var marginLeft = 0;
-
-function moveRight(){
-	marginLeft = marginLeft +1;
-	img.style.marginLeft = marginLeft + 'px';
-}
-
-img.onclick = function() {
-	var interval = setInterval(moveRight,50);
-
-};
+setTimeout(function(){
+    $('.madi').addClass('magictime puffIn');
+}, 5000);
 
 var counter = 0;
 var button = document.getElementById('counter');
@@ -24,6 +14,6 @@ button.onclick = function() {
 	span.innerHTML = counter.toString();
 };
 
-$('.madi_animate').hover(function () {
+$('.madi2').hover(function () {
   $(this).addClass('magictime puffIn');
 });
