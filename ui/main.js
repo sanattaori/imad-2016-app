@@ -17,3 +17,11 @@ button.onclick = function() {
 $('.madi2').hover(function () {
   $(this).addClass('magictime vanishIn');
 });
+
+
+    $(function(){
+        $(".typed").typed({
+            strings: ["First sentence.", "Second sentence."],
+            typeSpeed: 0
+        });
+    });
