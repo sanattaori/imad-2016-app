@@ -20,7 +20,7 @@ $('.madi2').hover(function () {
 
 
     $(function(){
-        $(".typed").typed({
+        $(".typed-element").typed({
             strings: ["First sentence.", "Second sentence."],
             typeSpeed: 0
         });
