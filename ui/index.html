@@ -17,6 +17,7 @@
      
         <h1 class="site__title mega center ">Welcome</h1>
         <p id="type"> </p>
+        <span class="element"></span>
         <hr/>
         
         <br>
@@ -43,7 +44,7 @@
   crossorigin="anonymous"></script>
   <script>
     $(function(){
-        $("#type").typed({
+        $(".element").typed({
             strings: ["First sentence.", "Second sentence."],
             typeSpeed: 0
         });
