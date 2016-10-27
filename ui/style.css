@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lato',sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #747704;
     background-color: lightgrey;
     margin-top: 75px;
@@ -7,6 +7,7 @@ body {
 
 .text-thin {
     font-weight:100;
+    
 }
 
 .center {
@@ -26,10 +27,10 @@ body {
 }
 
 .container {
+    font-family:'Raleway', sans-serif;
     max-width : 900px;
     margin: 0 auto;
     color: grey;
-font-family: sans-serif;
 padding-left:20px ;
 padding-right:20px;
 }
