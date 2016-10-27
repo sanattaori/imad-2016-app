@@ -14,11 +14,4 @@ button.onclick = function() {
 	span.innerHTML = counter.toString();
 };
 
-$(function(){
-        $(".element").typed({
-            strings: ["I am keen in learning every new thing which comes across me!.", "I am keen in learning every new thing which comes across me!"],
-            typeSpeed: 1
-        });
-    });
-
     
