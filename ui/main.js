@@ -14,5 +14,4 @@ button.onclick = function() {
 	span.innerHTML = counter.toString();
 };
 
-/*----------------------------slideout.js---------------------------------------------*/
 
