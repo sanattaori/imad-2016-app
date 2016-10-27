@@ -17,7 +17,7 @@ button.onclick = function() {
 $(function(){
         $(".element").typed({
             strings: ["I am keen in learning every new thing which comes across me!.", "I am keen in learning every new thing which comes across me!"],
-            typeSpeed: 0
+            typeSpeed: 1
         });
     });
 
