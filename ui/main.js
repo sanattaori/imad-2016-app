@@ -14,10 +14,6 @@ button.onclick = function() {
 	span.innerHTML = counter.toString();
 };
 
-$('.madi2').hover(function () {
-  $(this).addClass('magictime vanishIn');
-});
-
 
 
     
