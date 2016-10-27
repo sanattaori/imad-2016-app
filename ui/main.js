@@ -14,6 +14,11 @@ button.onclick = function() {
 	span.innerHTML = counter.toString();
 };
 
-
+$(function(){
+        $(".element").typed({
+            strings: ["First sentence.", "Second sentence."],
+            typeSpeed: 0
+        });
+    });
 
     
