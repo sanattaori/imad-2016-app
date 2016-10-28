@@ -37,7 +37,7 @@ padding-right:20px;
 
 .site__title {
     color: #2484f2;
-    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+    background-image: -webkit-linear-gradient(92deg,#4045d1,#7f9bff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 60s infinite linear;
