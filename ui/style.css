@@ -26,10 +26,14 @@ body {
     height: 200px;
 }
 
-/* ---------------------------font writeing --------------------------*/
+/* ---------------------------font writing --------------------------*/
 .css-selector {
   font-family: 'Tillana', cursive;
 }
+.css-selector2 {
+  font-family: 'Rubik', sans-serif;
+}
+
 
 /*-------------------x-------------------------------------------*/
 .container {
