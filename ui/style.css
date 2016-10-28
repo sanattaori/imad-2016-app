@@ -51,6 +51,15 @@ padding-right:20px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 60s infinite linear;
+    animation: .5s .25s fade backwards ease-out;
+    animation-name: fade;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.25s;
+    animation-iteration-count: initial;
+    animation-direction: initial;
+    animation-fill-mode: backwards;
+    animation-play-state: initial;
   }
   
   .type_color {
