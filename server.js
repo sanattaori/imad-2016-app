@@ -69,15 +69,6 @@ app.get('/counter', function (req, res){
 });
 
 
-var names=[];
-app.get('/submit-name', function (req, res) {
-  var name= req.query.name;
-  names.push(name);
-  
-  
-  
-  res.send(JSON.stringify(names));
-});
 
 
 app.get('/ui/particle.js', function (req, res) {
@@ -86,6 +77,16 @@ app.get('/ui/particle.js', function (req, res) {
 
 app.get('/ui/app.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'app.js'));
+});
+
+var names=[];
+app.get('/submit-name', function (req, res) {
+  var name= req.query.name;
+  names.push(name);
+  
+  
+  
+  res.send(JSON.stringify(names));
 });
 
 
