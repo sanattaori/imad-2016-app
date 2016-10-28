@@ -69,11 +69,11 @@ app.get('/counter', function (req, res){
 });
 
 
-app.get('ui/particle.js', function (req, res) {
+app.get('/ui/particle.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'particle.js'));
 });
 
-app.get('ui/app.js', function (req, res) {
+app.get('/ui/app.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'app.js'));
 });
 
