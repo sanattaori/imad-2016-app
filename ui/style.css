@@ -37,7 +37,6 @@ body {
 
 /*-------------------x-------------------------------------------*/
 .container {
-    position: absolute; 
     font-family:'Raleway', sans-serif;
     max-width : 900px;
     margin: 0 auto;
@@ -47,7 +46,6 @@ padding-right:20px;
 }
 
 .site__title {
-    position: absolute; 
     color: #2484f2;
     background-image: -webkit-linear-gradient(92deg,#4045d1,#7f9bff);
     -webkit-background-clip: text;
@@ -56,7 +54,6 @@ padding-right:20px;
   }
   
   .type_color {
-      position: absolute; 
     color: #00b3f0;
     background-image: -webkit-linear-gradient(92deg,#00b3f0,#004ead);
     -webkit-background-clip: text;
@@ -66,7 +63,6 @@ padding-right:20px;
   
 /*------------------------------typed.js----------------------------------------*/  
   .typed-cursor{
-      position: absolute; 
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
