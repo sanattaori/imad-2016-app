@@ -48,7 +48,7 @@ submit.onclick = function(){
             }
         }
     };
-    request.open('GET','http://sanattaori.imad.hasura-app.io/submit-name?name=' + name,true);
+    request.open('GET','http://sanattaori.imad.hasura-app.io/submit-name?name' + name,true);
     request.send(null);
     
     var name = ['name1', 'name2', 'name3'];
