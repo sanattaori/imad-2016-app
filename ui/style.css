@@ -179,12 +179,13 @@ padding-right:20px;
 }
 
 #slide2 {
-  background-image: url("http://lorempixel.com/640/480/abstract/3/");
+ /* background-image: url("http://lorempixel.com/640/480/abstract/3/");*/
   background-attachment: fixed;
 }
 
 #slide3:before {
-  background-image: url("http://lorempixel.com/640/480/abstract/5/");
+    
+/*  background-image: url("http://lorempixel.com/640/480/abstract/5/");*/
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
