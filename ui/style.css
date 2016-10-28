@@ -2,7 +2,8 @@ body {
     font-family: 'Raleway', sans-serif;
     color: #747704;
     background-color: lightgrey;
-    margin-top: 75px;
+    
+    margin:0;
 }
 
 .text-thin {
