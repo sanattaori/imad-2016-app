@@ -3,6 +3,21 @@ setTimeout(function(){
      $('.madi2').addClass('magictime puffIn');
  }, 5000);
 
+setInterval(function(){ 
+    $('.sanat2').toggleClass('magictime puffIn');
+}, 3000 );
+
+setInterval(function(){ 
+    $('.I2').toggleClass('magictime puffIn');
+}, 3000 );
+
+setInterval(function(){ 
+    $('.text2').toggleClass('magictime puffIn');
+}, 3000 );
+
+setInterval(function(){ 
+    $('.cursor2').toggleClass('magictime puffIn');
+}, 3000 );
 
 //counter
 var counter = 0;
