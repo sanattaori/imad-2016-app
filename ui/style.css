@@ -26,6 +26,12 @@ body {
     height: 200px;
 }
 
+/* ---------------------------font writeing --------------------------*/
+.css-selector {
+  font-family: 'Tillana', cursive;
+}
+
+/*-------------------x-------------------------------------------*/
 .container {
     font-family:'Raleway', sans-serif;
     max-width : 900px;
