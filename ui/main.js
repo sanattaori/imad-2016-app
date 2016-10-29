@@ -1,4 +1,23 @@
 console.log('Loaded!');
+
+//loder
+
+$(document).ready(function() {
+ 
+  // Fakes the loading setting a timeout
+    setTimeout(function() {
+        $('body').addClass('loaded');
+    }, 3500);
+ 
+});
+  
+alsolike(
+  "NNzGVd", "Search input context animation",
+  "aOQddB", "Open & Close Animation",
+  "wBOder", "Subtle Icons hover effect"
+);
+
+
 setTimeout(function(){
      $('.madi2').addClass('magictime puffIn');
  }, 5000);
@@ -54,3 +73,4 @@ submit.onclick = function(){
     
     
 };
+
