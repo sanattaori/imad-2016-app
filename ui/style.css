@@ -54,6 +54,12 @@ html {
   font-size: 180%;
 }
 
+.nameliststyle {
+    font-family: 'Tillana', cursive;
+  font-size: 120%;
+   color: #e0efff;
+}
+
 
 /*-------------------x-------------------------------------------*/
 .container {
@@ -64,6 +70,8 @@ html {
 padding-left:20px ;
 padding-right:20px;
 }
+
+
 
 .site__title {
     color: #2484f2;
