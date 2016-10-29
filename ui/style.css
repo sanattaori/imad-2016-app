@@ -180,13 +180,13 @@ padding-right:20px;
 }
 
 #slide2 {
- /* background-image: url("http://lorempixel.com/640/480/abstract/3/");*/
+  background-image: url("http://embed.gettyimages.com/embed/156313447?et=LG3RxsbTT4doDNe8z-Ya7g&viewMoreLink=on&sig=zKU4-J3snxwF5LPGCHbZ6HDzt1t9GASy0rZ_mHfPwnE=&caption=true");
   background-attachment: fixed;
 }
 
 #slide3:before {
     
-/*  background-image: url("http://lorempixel.com/640/480/abstract/5/");*/
+ background-image: url("http://embed.gettyimages.com/embed/156313447?et=LG3RxsbTT4doDNe8z-Ya7g&viewMoreLink=on&sig=zKU4-J3snxwF5LPGCHbZ6HDzt1t9GASy0rZ_mHfPwnE=&caption=true");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
