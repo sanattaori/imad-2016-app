@@ -45,6 +45,8 @@ html {
 /* ---------------------------font writing --------------------------*/
 .css-selector {
   font-family: 'Tillana', cursive;
+  font-size: 150%;
+  
 }
 .css-selector2 {
   font-family: 'Rubik', sans-serif;
