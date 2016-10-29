@@ -1,6 +1,12 @@
 console.log('Loaded!');
 
 
+$('.madi2').hover(function () {
+  $(this).addClass('magictime vanishIn');
+});
+setTimeout(function(){
+     $('.madi2').addClass('magictime puffIn');
+ }, 2000);
 
 
 var button = document.getElementById('counter');
@@ -69,6 +75,7 @@ alsolike(
   "aOQddB", "Open & Close Animation",
   "wBOder", "Subtle Icons hover effect"
 );
+
 
 
 setTimeout(function(){
