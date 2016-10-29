@@ -80,7 +80,7 @@ padding-right:20px;
   
   .type_color {
     color: #00b3f0;
-    background-image: -webkit-linear-gradient(92deg,#00b3f0,#004ead);
+    background-image: -webkit-linear-gradient(92deg,#e6f700,#004ead);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 60s infinite linear;
