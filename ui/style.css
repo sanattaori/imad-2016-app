@@ -14,6 +14,7 @@ body {
 }
 
 
+
 html {
   height: 100%;
   overflow: hidden;
@@ -164,7 +165,19 @@ html {
 
 /*-----------------------------------------------------*/
 
-
+.demo-layout-transparent {
+  background: url('../assets/demos/transparent.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+.divider{
+    height: 6;
+    display:inline-block;
+}
 .demo-list-item {
   width: 300px;
 }
