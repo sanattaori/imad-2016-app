@@ -9,6 +9,9 @@ setTimeout(function(){
  }, 2000);
 
 
+
+
+
 var button = document.getElementById('counter');
 
 button.onclick = function() {
