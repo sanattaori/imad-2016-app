@@ -8,8 +8,10 @@ setTimeout(function(){
      $('.madi2').addClass('magictime puffIn');
  }, 2000);
 
-document.getElementById("project").onclick = function () {
-        location.href = "www.yoursite.com";
+var project= document.getElementById("project")
+
+project.onclick = function () {
+        location.href = "http://sanattaori.imad.hasura-app.io/counter";
     };
 
 
