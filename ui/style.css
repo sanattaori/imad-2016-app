@@ -179,23 +179,6 @@ html {
 .demo-list-item {
   width: 300px;
 }
-.comment{
-  border:3px solid grey;
-  color:white;
-  width:90%;
-  height:auto;
-  padding-top:20px;
-}
-.commentbox{
-    border:1px dotted white;
-    color:white;
-    width:70%;
-    height:auto;
-    border-radius:10px;
-    padding-left:10px;
-    padding-top:10px;
-    padding-bottom:10px;
-}
 
 
 .text-thin {
@@ -268,6 +251,24 @@ padding-right:20px;
     animation-play-state: initial;
   }
   
+  .comment{
+  border:3px solid grey;
+  color:white;
+  width:90%;
+  height:auto;
+  padding-top:20px;
+}
+.commentbox{
+    border:1px dotted white;
+    color:white;
+    width:70%;
+    height:auto;
+    border-radius:10px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
   .type_color {
     color: #00b3f0;
     background-image: -webkit-linear-gradient(92deg,#e6f700,#7ff700);
