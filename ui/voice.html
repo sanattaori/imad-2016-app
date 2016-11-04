@@ -321,7 +321,7 @@ function createEmail() {
 function copyButton() {
   if (recognizing) {
     recognizing = false;
-    recognition.stop();
+   
   }
   copy_button.style.display = 'none';
   copy_info.style.display = 'inline-block';
@@ -341,8 +341,7 @@ function emailButton() {
 }
 function startButton(event) {
   if (recognizing) {
-    recognition.stop();
-    return;
+        return;
   }
   final_transcript = '';
   recognition.lang = select_dialect.value;
