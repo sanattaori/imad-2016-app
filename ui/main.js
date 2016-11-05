@@ -55,9 +55,7 @@ button.onclick = function() {
 
 var submit = document.getElementById('submit_btn');
 submit.onclick = function(){
-alert('sign in with google');
-    
-    
+alert('click on sign in button to post your comment');
 }
 
 //submit
