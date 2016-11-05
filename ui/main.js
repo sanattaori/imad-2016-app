@@ -50,12 +50,10 @@ button.onclick = function() {
 
 //submit
 
-var gname =googleUser.getBasicProfile().getName();
-
 var submit = document.getElementById('submit_btn');
 submit.onclick = function(){
     var request = new XMLHttpRequest();
-      var gname =googleUser.getBasicProfile().getName();
+     
     request.onreadystatechange = function() {
         if (request.readyState ===XMLHttpRequest.DONE){
             if(request.status === 200) {
@@ -63,7 +61,7 @@ submit.onclick = function(){
                names = JSON.parse(names);
     var list ='';
     for (var i=0; i<names.length; i++) {
-        list+='<li>'+ gname  + '</br>' + names[i] + '</li>'
+        list+='<li>'+ googleUser.getBasicProfile().getName();  + '</br>' + names[i] + '</li>'
     }
     var ul = document.getElementById('namelist');
     ul.innerHTML = list;
