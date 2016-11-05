@@ -83,10 +83,10 @@ submit.onclick = function(){
             }
         }
     };
-    
+    var space =':-'+'</br>';
     var nameInput = document.getElementById('name');
     var name = nameInput.value;
-    request.open('GET','http://sanattaori.imad.hasura-app.io/submit-name?name=' + gname + name ,true);
+    request.open('GET','http://sanattaori.imad.hasura-app.io/submit-name?name=' + gname + space + name ,true);
     request.send(null);
     
     
