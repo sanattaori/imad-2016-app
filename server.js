@@ -30,7 +30,7 @@ app.get('/counter', function (req, res){
 });
 
 app.get('/google3d34405dd5710609.html', function (req, res) {
-  res.sendFile(path.join( 'google3d34405dd5710609.html'));
+  res.sendFile(path.join( __dirname,'google3d34405dd5710609.html'));
 });
 
 
