@@ -50,7 +50,7 @@ button.onclick = function() {
 
 //submit
 
-
+var gname =googleUser.getBasicProfile().getName();
 
 var submit = document.getElementById('submit_btn');
 submit.onclick = function(){
