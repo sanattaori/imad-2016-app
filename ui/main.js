@@ -7,6 +7,7 @@ function onSignIn(googleUser) {
         console.log('Given Name: ' + profile.getGivenName());
         console.log('Family Name: ' + profile.getFamilyName());
         console.log("Image URL: " + profile.getImageUrl());
+        var gname = profile.getName();
 }
 
 function signOut() {
@@ -50,6 +51,7 @@ button.onclick = function() {
 //submit
 
 
+
 var submit = document.getElementById('submit_btn');
 submit.onclick = function(){
     var request = new XMLHttpRequest();
@@ -61,7 +63,7 @@ submit.onclick = function(){
                names = JSON.parse(names);
     var list ='';
     for (var i=0; i<names.length; i++) {
-        list+='<li>' + names[i] + '</li>'
+        list+='<li>'+ profile.getId()  + '</br>' + names[i] + '</li>'
     }
     var ul = document.getElementById('namelist');
     ul.innerHTML = list;
