@@ -10,6 +10,17 @@ function onSignIn(googleUser) {
         var gname = profile.getName();
 }
 
+if (auth2.isSignedIn.get()) {
+  var profile = auth2.currentUser.get().getBasicProfile();
+  console.log('ID: ' + profile.getId());
+  console.log('Full Name: ' + profile.getName());
+  console.log('Given Name: ' + profile.getGivenName());
+  console.log('Family Name: ' + profile.getFamilyName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail());
+  var gname = 'getBasicProfile();'
+}
+
 function signOut() {
     var auth2 = gapi.auth2.getAuthInstance();
     auth2.signOut().then(function () {
@@ -61,7 +72,7 @@ submit.onclick = function(){
                names = JSON.parse(names);
     var list ='';
     for (var i=0; i<names.length; i++) {
-        list+='<li>'+ googleUser.getBasicProfile().getName();  + '</br>' + names[i] + '</li>'
+        list+='<li>'+ auth2.currentUser.get().getBasicProfile().getName()  + '</br>' + names[i] + '</li>'
     }
     var ul = document.getElementById('namelist');
     ul.innerHTML = list;
