@@ -1,14 +1,6 @@
 console.log('Loaded!');
 
-function onSignIn(googleUser) {
-        // Useful data for your client-side scripts:
-        var profile = googleUser.getBasicProfile();
-        console.log('Full Name: ' + profile.getName());
-        console.log('Given Name: ' + profile.getGivenName());
-        console.log('Family Name: ' + profile.getFamilyName());
-        console.log("Image URL: " + profile.getImageUrl());
-        var gname = profile.getName();
-}
+
 
 /*-------------------------------google sign in-------------------
 */
@@ -83,11 +75,10 @@ submit.onclick = function(){
             }
         }
     };
-    var gimage = profile.getImageUrl();
     var space =' :-'+'</br>';
     var nameInput = document.getElementById('name');
     var name = nameInput.value;
-    request.open('GET','http://sanattaori.imad.hasura-app.io/submit-name?name=' +gimage +gname + space + name ,true);
+    request.open('GET','http://sanattaori.imad.hasura-app.io/submit-name?name=' + gname + space + name ,true);
     request.send(null);
     
     
