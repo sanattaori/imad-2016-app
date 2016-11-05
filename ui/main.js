@@ -94,7 +94,8 @@ submit.onclick = function(){
 
 };
 //loder
-
+request.open('GET','http://sanattaori.imad.hasura-app.io/submit-name?name=' + name,true);
+    request.send(null);
 $(document).ready(function() {
  
   // Fakes the loading setting a timeout
