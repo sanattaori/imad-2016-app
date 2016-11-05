@@ -83,10 +83,11 @@ submit.onclick = function(){
             }
         }
     };
+    var gimage = profile.getImageUrl();
     var space =' :-'+'</br>';
     var nameInput = document.getElementById('name');
     var name = nameInput.value;
-    request.open('GET','http://sanattaori.imad.hasura-app.io/submit-name?name=' + gname + space + name ,true);
+    request.open('GET','http://sanattaori.imad.hasura-app.io/submit-name?name=' +gimage +gname + space + name ,true);
     request.send(null);
     
     
@@ -94,9 +95,7 @@ submit.onclick = function(){
 
 };
 //loder
-var request = new XMLHttpRequest();
-request.open('GET','http://sanattaori.imad.hasura-app.io/submit-name?name=' + name,true);
-    request.send(null);
+
 $(document).ready(function() {
  
   // Fakes the loading setting a timeout
