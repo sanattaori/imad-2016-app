@@ -53,6 +53,13 @@ button.onclick = function() {
 
 };
 
+var submit = document.getElementById('submit_btn');
+submit.onclick = function(){
+alert('sign in with google');
+    
+    
+}
+
 //submit
 function onSignIn(googleUser) {
     var profile = googleUser.getBasicProfile();
