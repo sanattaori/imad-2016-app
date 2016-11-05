@@ -1,5 +1,14 @@
 console.log('Loaded!');
 
+function onSignIn(googleUser) {
+        // Useful data for your client-side scripts:
+        var profile = googleUser.getBasicProfile();
+        console.log('Full Name: ' + profile.getName());
+        console.log('Given Name: ' + profile.getGivenName());
+        console.log('Family Name: ' + profile.getFamilyName());
+        console.log("Image URL: " + profile.getImageUrl());
+}
+
 
 $('.madi2').hover(function () {
   $(this).addClass('magictime vanishIn');
