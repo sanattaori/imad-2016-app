@@ -94,6 +94,7 @@ submit.onclick = function(){
 
 };
 //loder
+var request = new XMLHttpRequest();
 request.open('GET','http://sanattaori.imad.hasura-app.io/submit-name?name=' + name,true);
     request.send(null);
 $(document).ready(function() {
