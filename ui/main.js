@@ -55,7 +55,7 @@ button.onclick = function() {
 var submit = document.getElementById('submit_btn');
 submit.onclick = function(){
     var request = new XMLHttpRequest();
-      
+      var gname =googleUser.getBasicProfile().getName();
     request.onreadystatechange = function() {
         if (request.readyState ===XMLHttpRequest.DONE){
             if(request.status === 200) {
