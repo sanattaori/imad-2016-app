@@ -91,11 +91,6 @@ $(document).ready(function() {
  
 });
   
-alsolike(
-  "NNzGVd", "Search input context animation",
-  "aOQddB", "Open & Close Animation",
-  "wBOder", "Subtle Icons hover effect"
-);
 
 
 
