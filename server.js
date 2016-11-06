@@ -12,6 +12,10 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+app.get('/tes-dbt',function(req, res){
+    
+}); 
+
 app.get('/maps', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'maps.html'));
 });
